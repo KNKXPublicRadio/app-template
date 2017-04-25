@@ -38,19 +38,19 @@ ASSETS_SLUG = '$NEW_PROJECT_SLUG'
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
+PRODUCTION_S3_BUCKET = 'apps.knkx.org'
 
-STAGING_S3_BUCKET = 'stage-apps.npr.org'
+STAGING_S3_BUCKET = 'stage-apps.knkx.org'
 
-ASSETS_S3_BUCKET = 'assets.apps.npr.org'
+ASSETS_S3_BUCKET = 'assets.apps.knkx.org'
 
 DEFAULT_MAX_AGE = 20
 
 RELOAD_TRIGGER = False
 RELOAD_CHECK_INTERVAL = 60
 
-PRODUCTION_SERVERS = ['cron.nprapps.org']
-STAGING_SERVERS = ['cron-staging.nprapps.org']
+PRODUCTION_SERVERS = ['']
+STAGING_SERVERS = ['']
 
 # Should code be deployed to the web/cron servers?
 DEPLOY_TO_SERVERS = False
@@ -92,7 +92,7 @@ DEBUG = True
 """
 COPY EDITING
 """
-COPY_GOOGLE_DOC_KEY = '0AlXMOHKxzQVRdHZuX1UycXplRlBfLVB0UVNldHJYZmc'
+COPY_GOOGLE_DOC_KEY = '1dcWx6FKOGq_dnvxFf9LYo7DNufM_0fiW5kwmnp4Bcm0'
 COPY_PATH = 'data/copy.xlsx'
 
 """
